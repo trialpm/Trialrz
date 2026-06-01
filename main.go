@@ -44,6 +44,20 @@ var (
         "https://razorpay.me/@mmpay",
         "https://razorpay.me/@Management",
         "https://razorpay.me/@ggppl",
+        "https://rzp.io/l/paymentlink",
+        "https://rzp.io/i/paymentlink",
+"https://rzp.io/rzp/paymentpage",
+"https://pages.razorpay.com/fees-collection",
+"https://pages.razorpay.com/donation-page",
+"https://pages.razorpay.com/event-registration",
+"https://pages.razorpay.com/course-payment",
+"https://pages.razorpay.com/subscription-payment",
+"https://pages.razorpay.com/product-order",
+"https://pages.razorpay.com/service-booking",
+"https://pages.razorpay.com/consultation-fee",
+"https://pages.razorpay.com/institute-fees",
+"https://pages.razorpay.com/ngo-donation",
+"https://pages.razorpay.com/ticket-booking",
     }
     urlIndex   uint64
     proxyIndex uint64
@@ -51,7 +65,7 @@ var (
 
 // ──────────────────────────────────────────────────────────────────────────────
 //  AUTO RAZORPAY BY @rnrxx / @ccnfy - DAD OF TREX
-// ──────────────────────────────────────────────────────────────────────────────
+// ─────────────────────────────
 
 func getNextURL() string {
     idx := atomic.AddUint64(&urlIndex, 1) - 1
