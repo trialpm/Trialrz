@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-DLX RAZORPAY CARD CHECKER v2.0 - FULL PLAYWRIGHT EDITION
-GO versiyonu ile birebir aynı mantık - TÜM ÖZELLİKLER EKLENDİ
-Channel : @dlxdropp
-Coder   : @deluxe_cc
-"""
-
 import re
 import json
 import time
