@@ -29,7 +29,7 @@ import (
 const (
     BUILD    = "9cb57fdf457e44eac4384e182f925070ff5488d9"
     BUILD_V1 = "715e3c0a534a4e4fa59a19e1d2a3cc3daf1837e2"
-    PORT     = 7070
+    PORT     = 10000
 )
 
 var (
